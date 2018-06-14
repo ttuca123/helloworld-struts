@@ -1,19 +1,17 @@
-This is the example project referred to in the
+Esse é um exemplo de projeto referenciando
 Struts 2 documentation, Hello World tutorial.
-See:  http://struts.apache.org.
+Veja:  http://struts.apache.org.
 
-To build the application's war file run mvn clean package
-from the project's root folder.
+Para construir o war, execute mvn clean package do diretório root do projeto
 
-The war file is created in the target sub-folder.
+O arquivo war é criado no target sub-folder
 
-Copy the war file to your Servlet container (e.g. Tomcat) and 
-then startup the Servlet container.
+Copie o arquivo war para seu servlet TOMCAT e inicie
 
-Or if you are using maven you can run command:
+Ou se você usar maven, execute o seguinte comando:
 mvn jetty:run
 
-In a web browser go to:  http://localhost:8080/hello-world/index.action.
+No browser web, acesse:  http://localhost:8080/helloworld-struts/index.jsp.
 
-You should see a web page with Welcome to Struts 2!
+Você vai ver a exibição da página principal
 
